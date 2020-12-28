@@ -1,20 +1,61 @@
 import React from 'react';
+import Books from './Books/Books'
 import './About.css'
+
+// import image1 from './Techonlogies/Images/css.png'
+// import image2 from './Techonlogies/Images/html.png'
+// import image3 from './Techonlogies/Images/js.png'
+// import image4 from './Techonlogies/Images/node.png'
+// import image5 from './Techonlogies/Images/express.png'
+// import image6 from './Techonlogies/Images/mongo.png'
+// import image7 from './Hobbies/Images/react2.png'
+// import image8 from './Techonlogies/Images/bootstrap.png'
+// import image9 from './Techonlogies/Images/github.png'
+
+import image10 from './Hobbies/Images/cookie.png'
+import image11 from './Hobbies/Images/book.png'
+import image12 from './Hobbies/Images/yoga.png'
+import image13 from './Hobbies/Images/plane.png'
 
 const About = (props) => {
 
     return (
         <div id={props.id}>
-            <p>About</p>
-            <p>Snow draft cutlass Pirate Round barkadeer starboard Corsair pinnace coffer keelhaul. Grog chase guns interloper yard ahoy shrouds provost list Arr Sink me. Ahoy cutlass gun skysail careen boom bounty dance the hempen jig yard lateen sail. Sink me nipperkin weigh anchor stern pirate hearties coffer tackle mizzen scuppers. Matey shrouds league piracy long boat loot hornswaggle six pounders yard parrel. Trysail gabion starboard hogshead snow driver American Main nipperkin crow's nest black jack. Loot galleon chantey clipper gibbet red ensign holystone killick mizzen swab. Case shot aft scurvy knave parrel Pirate Round doubloon Letter of Marque topgallant bowsprit. Lee to go on account salmagundi capstan lookout gangway jolly boat reef crow's nest gaff. Spirits hogshead grog blossom reef scuttle parrel tackle smartly nipperkin red ensign. Maroon smartly long boat gibbet scuttle driver ahoy Sail ho Yellow Jack man-of-war.
-               Quarterdeck jack gally piracy crow's nest spanker Buccaneer sheet Letter of Marque scourge of the seven seas. Parley tackle Shiver me timbers long boat fathom lateen sail wench rope's end Buccaneer to go on account. Mizzen fluke hardtack aft Pieces of Eight avast boatswain Cat o'nine tails log square-rigged. Rutters bilged on her anchor hulk keel to go on account killick blow the man down ho jib fire ship. Sink me hogshead cutlass doubloon capstan crimp loot clap of thunder hardtack interloper. Maroon carouser skysail lugger jack league Corsair smartly parley coffer. Long boat pillage barque stern schooner spyglass sutler hornswaggle hearties lee. Sheet mizzenmast jack skysail bucko Jolly Roger lugsail pillage crimp bilged on her anchor. Fathom American Main bounty cutlass Jack Tar to go on account ballast take a caulk barque pirate. Reef sails nipper yo-ho-ho measured fer yer chains bilge bucko mutiny Spanish Main Shiver me timbers chandler. Hempen halter Plate Fleet lugger crimp deadlights stern crack Jennys tea cup crow's nest chase coxswain.
-            </p>
-            <p>Snow draft cutlass Pirate Round barkadeer starboard Corsair pinnace coffer keelhaul. Grog chase guns interloper yard ahoy shrouds provost list Arr Sink me. Ahoy cutlass gun skysail careen boom bounty dance the hempen jig yard lateen sail. Sink me nipperkin weigh anchor stern pirate hearties coffer tackle mizzen scuppers. Matey shrouds league piracy long boat loot hornswaggle six pounders yard parrel. Trysail gabion starboard hogshead snow driver American Main nipperkin crow's nest black jack. Loot galleon chantey clipper gibbet red ensign holystone killick mizzen swab. Case shot aft scurvy knave parrel Pirate Round doubloon Letter of Marque topgallant bowsprit. Lee to go on account salmagundi capstan lookout gangway jolly boat reef crow's nest gaff. Spirits hogshead grog blossom reef scuttle parrel tackle smartly nipperkin red ensign. Maroon smartly long boat gibbet scuttle driver ahoy Sail ho Yellow Jack man-of-war.
-               Quarterdeck jack gally piracy crow's nest spanker Buccaneer sheet Letter of Marque scourge of the seven seas. Parley tackle Shiver me timbers long boat fathom lateen sail wench rope's end Buccaneer to go on account. Mizzen fluke hardtack aft Pieces of Eight avast boatswain Cat o'nine tails log square-rigged. Rutters bilged on her anchor hulk keel to go on account killick blow the man down ho jib fire ship. Sink me hogshead cutlass doubloon capstan crimp loot clap of thunder hardtack interloper. Maroon carouser skysail lugger jack league Corsair smartly parley coffer. Long boat pillage barque stern schooner spyglass sutler hornswaggle hearties lee. Sheet mizzenmast jack skysail bucko Jolly Roger lugsail pillage crimp bilged on her anchor. Fathom American Main bounty cutlass Jack Tar to go on account ballast take a caulk barque pirate. Reef sails nipper yo-ho-ho measured fer yer chains bilge bucko mutiny Spanish Main Shiver me timbers chandler. Hempen halter Plate Fleet lugger crimp deadlights stern crack Jennys tea cup crow's nest chase coxswain.
-            </p>
-            <p>Snow draft cutlass Pirate Round barkadeer starboard Corsair pinnace coffer keelhaul. Grog chase guns interloper yard ahoy shrouds provost list Arr Sink me. Ahoy cutlass gun skysail careen boom bounty dance the hempen jig yard lateen sail. Sink me nipperkin weigh anchor stern pirate hearties coffer tackle mizzen scuppers. Matey shrouds league piracy long boat loot hornswaggle six pounders yard parrel. Trysail gabion starboard hogshead snow driver American Main nipperkin crow's nest black jack. Loot galleon chantey clipper gibbet red ensign holystone killick mizzen swab. Case shot aft scurvy knave parrel Pirate Round doubloon Letter of Marque topgallant bowsprit. Lee to go on account salmagundi capstan lookout gangway jolly boat reef crow's nest gaff. Spirits hogshead grog blossom reef scuttle parrel tackle smartly nipperkin red ensign. Maroon smartly long boat gibbet scuttle driver ahoy Sail ho Yellow Jack man-of-war.
-               Quarterdeck jack gally piracy crow's nest spanker Buccaneer sheet Letter of Marque scourge of the seven seas. Parley tackle Shiver me timbers long boat fathom lateen sail wench rope's end Buccaneer to go on account. Mizzen fluke hardtack aft Pieces of Eight avast boatswain Cat o'nine tails log square-rigged. Rutters bilged on her anchor hulk keel to go on account killick blow the man down ho jib fire ship. Sink me hogshead cutlass doubloon capstan crimp loot clap of thunder hardtack interloper. Maroon carouser skysail lugger jack league Corsair smartly parley coffer. Long boat pillage barque stern schooner spyglass sutler hornswaggle hearties lee. Sheet mizzenmast jack skysail bucko Jolly Roger lugsail pillage crimp bilged on her anchor. Fathom American Main bounty cutlass Jack Tar to go on account ballast take a caulk barque pirate. Reef sails nipper yo-ho-ho measured fer yer chains bilge bucko mutiny Spanish Main Shiver me timbers chandler. Hempen halter Plate Fleet lugger crimp deadlights stern crack Jennys tea cup crow's nest chase coxswain.
-            </p>
+            <h1>About</h1>
+            <p className="about-p">Hello! I'm Issa Gruber, a full-stack developer based in Amsterdam. I'm orginally from Denver, Colorado and moved to San Francisco, California right after college. Most recently I worked at Uber as a Technical Recruiter. After nearly 10 years hiring software developers I realized I wanted to be the one on the ground creating amazing things! I enrolled in a fulltime engineering program at Ironhack and I can say it's been the best decision I've made. I love being challenged and getting the chance to build new things daily.</p>
+            <p className="about-p"><strong>Technologies I've Worked With:</strong> Javascript, ReactJS, HTML5, CSS, NodeJS, Express, MongoDB, Bootstrap, Git, Github</p>
+            {/* <h3>Technologies I've Worked With</h3>
+            <div>
+                <img src={image1} alt="image1" style={{ height:50}} className="tech-image"/>
+                <img src={image2} alt="image2" style={{ height:50}} className="tech-image"/>
+                <img src={image3} alt="image3" style={{ height:50}} className="tech-image"/>
+                <img src={image4} alt="image4" style={{ height:50}} className="tech-image"/>
+                <img src={image5} alt="image5" style={{ height:50}} className="tech-image"/>
+                <img src={image6} alt="image6" style={{ height:50}} className="tech-image"/>
+                <img src={image7} alt="image7" style={{ height:50}} className="tech-image"/>
+                <img src={image8} alt="image8" style={{ height:50}} className="tech-image"/>
+                <img src={image9} alt="image9" style={{ height:50}} className="tech-image"/>
+            </div> */}
+
+            <h3>Hobbies</h3>
+            <div className="hobbies-div">
+                <div className="hobbies-icons">
+                    <div>
+                        <img src={image10} alt="image10" style={{ height: 80}}/>
+                        <img src={image11} alt="image11" style={{ height: 80}}/>
+                        <img src={image12} alt="image12" style={{ height: 80}}/>
+                        <img src={image13} alt="image13" style={{ height: 80}}/>
+                    </div>
+                </div>
+                <div className="hobbies-p-div">
+                    <p className="hobbies-p">In my free time you can find me baking chocolate chip cookies, traveling or reading a good book. Lover of all things Fantasy and Sci-Fi!</p>
+                    <p>Scroll below for some books I loved this year:</p>
+                </div>
+            </div>
+            {/* <h1>Books I Loved This Year!</h1> */}
+            <div className="books-div">
+                <Books/>
+            </div>
         </div>
     )
 }

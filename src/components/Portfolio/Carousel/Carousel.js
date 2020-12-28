@@ -22,33 +22,10 @@ import bookly7 from "../images/bookly/bookly-club-two.png"
 const MyCarousel = () => {
   return (
     <div className="carousel-wrapper">
-      <div className="awesome-trivia-div">
-        <h3>Awesome trivia</h3>
-            <Carousel showThumbs={false}>
-            <div>
-                <img src={image1} alt="image1" />
-            </div>
-            <div>
-                <img src={image2} alt="image2" />
-            </div>
-            <div>
-                <img src={image3} alt="image3" />
-            </div>
-            <div>
-                <img src={image4} alt="image4" />
-            </div>
-            </Carousel>
-        <p>A little about Awesome Trivia</p>
-
-        <div>
-          <button>Try Demo</button>
-          <button>View Code</button>
-        </div>
-      </div>
 
       <div className="castle-div">
         <h3>Stay In A Castle</h3>
-            <Carousel showThumbs={false}>
+            <Carousel showThumbs={false} showStatus={false}>
             <div>
                 <img src={castle1} alt="image1" />
             </div>
@@ -73,9 +50,33 @@ const MyCarousel = () => {
         </div>
       </div>
 
+      <div className="awesome-trivia-div">
+        <h3>Awesome trivia</h3>
+            <Carousel showThumbs={false} showStatus={false}>
+            <div>
+                <img src={image1} alt="image1" />
+            </div>
+            <div>
+                <img src={image2} alt="image2" />
+            </div>
+            <div>
+                <img src={image3} alt="image3" />
+            </div>
+            <div>
+                <img src={image4} alt="image4" />
+            </div>
+            </Carousel>
+        <p>A little about Awesome Trivia</p>
+
+        <div>
+          <button>Try Demo</button>
+          <button>View Code</button>
+        </div>
+      </div>
+
       <div className="bookly-div">
         <h3>Bookly</h3>
-            <Carousel showThumbs={false}>
+            <Carousel showThumbs={false} showStatus={false}>
             <div>
                 <img src={bookly1} alt="image1" />
             </div>

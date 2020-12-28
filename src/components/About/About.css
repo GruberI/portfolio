@@ -1,0 +1,35 @@
+.books-div {
+    width: 75%;
+    margin: auto;
+}
+
+.hobbies-div {
+    display: flex;
+    margin: auto;
+}
+
+.hobbies-icons {
+    margin: auto;
+    margin-right: 0;
+    width: 50%;
+}
+
+.hobbies-p-div {
+    width: 47%;
+    margin: auto;
+    margin-left: 0;
+    text-align: left;
+}
+
+.hobbies-p {
+    width: 78%;
+}
+.tech-image {
+    margin: 15px;
+}
+
+.about-p {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+}

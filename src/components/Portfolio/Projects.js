@@ -11,15 +11,9 @@ const Projects = (props) => {
     return (
         <div id={props.id} className="portfolio-container">
             <h1>Portfolio</h1>
-            <div className="project-container">
             <section className="awesome-trivia">
                 <MyCarousel/>
             </section>
-
-            <section className="stay-in-a-castle"></section>
-
-            <section className="bookly"></section>
-            </div>
         </div>
     )
 }

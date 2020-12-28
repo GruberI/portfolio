@@ -8,31 +8,33 @@ import Contact from './components/Contact/Contact'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Welcome 
-        title="Welcome"
-        subtitle="Welcome"
-        id="welcome"
-      />
+    <div>
+     <Navbar />
+      <div className="App">
+        <Welcome 
+          title="Welcome"
+          subtitle="Welcome"
+          id="welcome"
+        />
 
-      <Portfolio
-        title="Portfolio"
-        subtitle="Portfolio"
-        id="portfolio"
-      /> 
+        <Portfolio
+          title="Portfolio"
+          subtitle="Portfolio"
+          id="portfolio"
+        /> 
 
-      <About
-        title="About"
-        subtitle="About"
-        id="about"
-      /> 
+        <About
+          title="About"
+          subtitle="About"
+          id="about"
+        /> 
 
-      <Contact
-        title="Contact"
-        subtitle="Contact"
-        id="contact"
-      /> 
+        <Contact
+          title="Contact"
+          subtitle="Contact"
+          id="contact"
+        /> 
+      </div>
     </div>
   );
 }

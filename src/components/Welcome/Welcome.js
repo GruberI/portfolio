@@ -13,7 +13,7 @@ const Welcome = () => {
            <section className="welcome-text">
                <div className="text-div">
                     <h2>Welcome! My name is</h2>
-                    <h1>Issa Gruber</h1>
+                    <h1 className="welcome-h1">Issa Gruber</h1>
                     <h2>I'm a web developer.</h2>
                </div>
            </section>
