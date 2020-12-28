@@ -20,14 +20,14 @@ const Books = () => {
     const chevronWidth = 40;
 
     return (
-        <div >
+        <div>
       <ItemsCarousel
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
         numberOfCards={3}
         gutter={20}
-        leftChevron={<button>{'<'}</button>}
-        rightChevron={<button>{'>'}</button>}
+        leftChevron={'<'}
+        rightChevron={'>'}
         outsideChevron
         chevronWidth={chevronWidth}
       >

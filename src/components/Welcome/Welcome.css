@@ -31,15 +31,17 @@ section {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 45px;
     margin: 0;
-
+    font-weight: 600;
+    color: #333333;
 }
 
 .welcome-h1 {
-    font-size: 50px;
+    font-size: 65px;
     margin-top: 20px;
     margin-bottom: 20px;
-    color: #721e11;
+    color:#820825;
+    font-weight: 800;
 
 }

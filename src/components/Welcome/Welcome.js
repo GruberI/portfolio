@@ -2,10 +2,10 @@ import React from 'react';
 import image from './linkedinPhoto.jpeg'
 import './Welcome.css'
 
-const Welcome = () => {
+const Welcome = (props) => {
 
     return (
-        <div className="welcome-container">
+        <div className="welcome-container" id={props.id}>
            <section className="welcome-image">
             <img src={image} alt="linkedinPhoto" className="linkedinPhoto"/>
            </section>

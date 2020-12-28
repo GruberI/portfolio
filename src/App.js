@@ -15,6 +15,7 @@ function App() {
           title="Welcome"
           subtitle="Welcome"
           id="welcome"
+          className="fullpage"
         />
 
         <Portfolio
@@ -27,6 +28,7 @@ function App() {
           title="About"
           subtitle="About"
           id="about"
+          className="fullpage"
         /> 
 
         <Contact
