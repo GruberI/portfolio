@@ -82,7 +82,7 @@ const MyCarousel = () => {
             </div>
           </Carousel>
           <div class="carousel-p-div">
-            <p className="carousel-p">Stay in a Castle is a web application that finds and organizes castle hotels you can book around Europe. Users are able sign up and search different countries for available castle hotels. You can view details and get routed to booking sites.</p>
+            <p className="carousel-p">Stay in a Castle is a web application that finds and organizes castle hotels you can book around Europe. Users are able sign up, search different countries and be re-routed for castle booking. Each castle hotel also has its own details page with a description and google maps view.</p>
             <p className="carousel-p">Technologies: ExpressJS, NodeJS, MongoDB, Javascript, Handlebars, GoogleMapsAPI.</p>
           </div>
           <div>
