@@ -15,7 +15,6 @@ function App() {
           title="Welcome"
           subtitle="Welcome"
           id="welcome"
-          className="fullpage"
         />
 
         <Portfolio

@@ -5,7 +5,8 @@ import './Welcome.css'
 const Welcome = (props) => {
 
     return (
-        <div className="welcome-container" id={props.id}>
+        <div id={props.id} className="fullpage">
+        <div className="welcome-container">
            <section className="welcome-image">
             <img src={image} alt="linkedinPhoto" className="linkedinPhoto"/>
            </section>
@@ -17,6 +18,7 @@ const Welcome = (props) => {
                     <h2>I'm a web developer.</h2>
                </div>
            </section>
+        </div>
         </div>
     )
 }
