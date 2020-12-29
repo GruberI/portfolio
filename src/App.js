@@ -37,6 +37,7 @@ function App() {
           id="contact"
         /> 
       </div>
+      <footer>© 2021 Issa Gruber. Thank you for visiting!</footer>
     </div>
   );
 }
