@@ -15,7 +15,7 @@ const About = (props) => {
             <div className="about-text">
             <p className="about-p">Hello! I'm Issa Gruber, a full-stack developer based in Amsterdam. I'm orginally from the beautiful state of Colorado but moved to San Francisco, California right after I graduated college. Most recently I spent 5 years working at Uber as a Technical Recruiter. After nearly 10 years hiring software developers I realized I wanted to be the one on the ground creating amazing things! I enrolled in a fulltime engineering program at Ironhack-Amsterdam and I can say it's been the best decision I've made. I love being challenged and getting the chance to build new things daily.</p>
             <br/>
-            <p className="about-p"><strong>Technologies I've Worked With:</strong> Javascript, ReactJS, HTML5, CSS, NodeJS, Express, MongoDB, Bootstrap, Git, Github</p>
+            <p className="about-p"><strong>Technologies I've Worked With:</strong> Javascript, ReactJS, HTML5, CSS, NodeJS, Express, MongoDB, Bootstrap, Handlebars, Git, Github.</p>
             </div>
 
             <h3>Hobbies</h3>
