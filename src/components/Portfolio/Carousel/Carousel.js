@@ -47,7 +47,7 @@ const MyCarousel = () => {
           </div>
         </Carousel>
         <div class="carousel-p-div">
-          <p className="carousel-p">Bookly is a web application that brings together the stories & the people you love! When you join bookly you can organize a virtual bookclub for you and your friends. Bookly was my final project for the Ironhack bootcamp and winner of my cohorts final competition.</p>
+          <p className="carousel-p">Bookly is a web application that brings together the stories & the people you love! When you join bookly you can organize a virtual bookclub for you and your friends. Bookly was my final project for the Ironhack bootcamp, out of 17 projects it was chosen as a finalist for my cohorts hackathon.</p>
           <p className="carousel-p">Technologies: ReactJS, Javascript, MongoDB, ExpressJS, NodeJS, SCSS, Client side rendering.</p>
         </div>
         <div>
