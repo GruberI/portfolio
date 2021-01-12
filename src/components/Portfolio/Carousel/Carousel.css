@@ -20,3 +20,12 @@
     margin-top: 30px;
     margin-left: 20px;
   }
+
+  .carousel-btn-text{
+    display: flex;
+  }
+
+  .icon {
+    color: #494949;
+    padding-left: 6px;
+  }

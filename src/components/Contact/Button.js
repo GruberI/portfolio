@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+import TelegramIcon from '@material-ui/icons/Telegram';
 
 class Button extends Component {
   static propTypes = {
@@ -39,6 +40,7 @@ class Button extends Component {
 
     return (
        <button className="send-button"> 
+       <div className="contact-btn-text">
       <a
         href={`${recipient}${subject}${body}`}
         disabled={this.state.isClicked}
@@ -46,6 +48,8 @@ class Button extends Component {
       >
         Send Email
       </a>
+      <TelegramIcon className="icon"/>
+      </div>
       </button>
     );
   }

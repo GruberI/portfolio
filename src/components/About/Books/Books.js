@@ -13,7 +13,7 @@ import image10 from './Images/book10.jpg'
 import image11 from './Images/book11.jpg'
 import image12 from './Images/book12.jpg'
 import image13 from './Images/book13.jpg'
-import image14 from './Images/book14.jpg'
+
 
 const Books = () => {
     const [activeItemIndex, setActiveItemIndex] = useState(0);
@@ -44,7 +44,6 @@ const Books = () => {
       <img src={image11} alt="image11" style={{ height: 300}}/>
       <img src={image12} alt="image12" style={{ height: 300}}/>
       <img src={image13} alt="image13" style={{ height: 300}}/>
-      <img src={image14} alt="image14" style={{ height: 300}}/>
       </ItemsCarousel>
     </div>
     )

@@ -16,6 +16,10 @@ input,
     width: 300px;
   }
 
+  .input-field:focus {
+    outline: none;
+  }
+
   .bar {
     display: block;
     width: 300px;
@@ -60,4 +64,8 @@ input,
   .github-button {
     padding-left: 17px;
     padding-right: 17px;
+  }
+
+  .contact-btn-text {
+    display: flex;
   }
