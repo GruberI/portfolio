@@ -1,4 +1,4 @@
-# Live Site
+# Portfolio
 
 My Portfolio was created using React and hosted on Netlify. Click here to view my site: https://issagruber.netlify.app/
 ## Getting Started with Create React App
